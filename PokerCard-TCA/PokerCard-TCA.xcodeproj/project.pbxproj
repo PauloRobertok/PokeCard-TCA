@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE18AF2E299D426D006EEE84 /* PokerCard_TCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE18AF2D299D426D006EEE84 /* PokerCard_TCAApp.swift */; };
+		FE18AF30299D426D006EEE84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE18AF2F299D426D006EEE84 /* ContentView.swift */; };
+		FE18AF32299D426D006EEE84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE18AF31299D426D006EEE84 /* Assets.xcassets */; };
+		FE18AF35299D426D006EEE84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE18AF34299D426D006EEE84 /* Preview Assets.xcassets */; };
+		FE18AF3F299D426E006EEE84 /* PokerCard_TCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE18AF3E299D426E006EEE84 /* PokerCard_TCATests.swift */; };
+		FE18AF49299D426E006EEE84 /* PokerCard_TCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE18AF48299D426E006EEE84 /* PokerCard_TCAUITests.swift */; };
+		FE18AF4B299D426E006EEE84 /* PokerCard_TCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE18AF4A299D426E006EEE84 /* PokerCard_TCAUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE18AF3B299D426E006EEE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE18AF22299D426D006EEE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE18AF29299D426D006EEE84;
+			remoteInfo = "PokerCard-TCA";
+		};
+		FE18AF45299D426E006EEE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE18AF22299D426D006EEE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE18AF29299D426D006EEE84;
+			remoteInfo = "PokerCard-TCA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE18AF2A299D426D006EEE84 /* PokerCard-TCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokerCard-TCA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE18AF2D299D426D006EEE84 /* PokerCard_TCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCard_TCAApp.swift; sourceTree = "<group>"; };
+		FE18AF2F299D426D006EEE84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE18AF31299D426D006EEE84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE18AF34299D426D006EEE84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE18AF3A299D426E006EEE84 /* PokerCard-TCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokerCard-TCATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE18AF3E299D426E006EEE84 /* PokerCard_TCATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCard_TCATests.swift; sourceTree = "<group>"; };
+		FE18AF44299D426E006EEE84 /* PokerCard-TCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokerCard-TCAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE18AF48299D426E006EEE84 /* PokerCard_TCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCard_TCAUITests.swift; sourceTree = "<group>"; };
+		FE18AF4A299D426E006EEE84 /* PokerCard_TCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCard_TCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE18AF27299D426D006EEE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE18AF37299D426E006EEE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE18AF41299D426E006EEE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE18AF21299D426D006EEE84 = {
+			isa = PBXGroup;
+			children = (
+				FE18AF2C299D426D006EEE84 /* PokerCard-TCA */,
+				FE18AF3D299D426E006EEE84 /* PokerCard-TCATests */,
+				FE18AF47299D426E006EEE84 /* PokerCard-TCAUITests */,
+				FE18AF2B299D426D006EEE84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE18AF2B299D426D006EEE84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE18AF2A299D426D006EEE84 /* PokerCard-TCA.app */,
+				FE18AF3A299D426E006EEE84 /* PokerCard-TCATests.xctest */,
+				FE18AF44299D426E006EEE84 /* PokerCard-TCAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE18AF2C299D426D006EEE84 /* PokerCard-TCA */ = {
+			isa = PBXGroup;
+			children = (
+				FE18AF2D299D426D006EEE84 /* PokerCard_TCAApp.swift */,
+				FE18AF2F299D426D006EEE84 /* ContentView.swift */,
+				FE18AF31299D426D006EEE84 /* Assets.xcassets */,
+				FE18AF33299D426D006EEE84 /* Preview Content */,
+			);
+			path = "PokerCard-TCA";
+			sourceTree = "<group>";
+		};
+		FE18AF33299D426D006EEE84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE18AF34299D426D006EEE84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE18AF3D299D426E006EEE84 /* PokerCard-TCATests */ = {
+			isa = PBXGroup;
+			children = (
+				FE18AF3E299D426E006EEE84 /* PokerCard_TCATests.swift */,
+			);
+			path = "PokerCard-TCATests";
+			sourceTree = "<group>";
+		};
+		FE18AF47299D426E006EEE84 /* PokerCard-TCAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE18AF48299D426E006EEE84 /* PokerCard_TCAUITests.swift */,
+				FE18AF4A299D426E006EEE84 /* PokerCard_TCAUITestsLaunchTests.swift */,
+			);
+			path = "PokerCard-TCAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE18AF29299D426D006EEE84 /* PokerCard-TCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE18AF4E299D426E006EEE84 /* Build configuration list for PBXNativeTarget "PokerCard-TCA" */;
+			buildPhases = (
+				FE18AF26299D426D006EEE84 /* Sources */,
+				FE18AF27299D426D006EEE84 /* Frameworks */,
+				FE18AF28299D426D006EEE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PokerCard-TCA";
+			productName = "PokerCard-TCA";
+			productReference = FE18AF2A299D426D006EEE84 /* PokerCard-TCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE18AF39299D426E006EEE84 /* PokerCard-TCATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE18AF51299D426E006EEE84 /* Build configuration list for PBXNativeTarget "PokerCard-TCATests" */;
+			buildPhases = (
+				FE18AF36299D426E006EEE84 /* Sources */,
+				FE18AF37299D426E006EEE84 /* Frameworks */,
+				FE18AF38299D426E006EEE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE18AF3C299D426E006EEE84 /* PBXTargetDependency */,
+			);
+			name = "PokerCard-TCATests";
+			productName = "PokerCard-TCATests";
+			productReference = FE18AF3A299D426E006EEE84 /* PokerCard-TCATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE18AF43299D426E006EEE84 /* PokerCard-TCAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE18AF54299D426E006EEE84 /* Build configuration list for PBXNativeTarget "PokerCard-TCAUITests" */;
+			buildPhases = (
+				FE18AF40299D426E006EEE84 /* Sources */,
+				FE18AF41299D426E006EEE84 /* Frameworks */,
+				FE18AF42299D426E006EEE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE18AF46299D426E006EEE84 /* PBXTargetDependency */,
+			);
+			name = "PokerCard-TCAUITests";
+			productName = "PokerCard-TCAUITests";
+			productReference = FE18AF44299D426E006EEE84 /* PokerCard-TCAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE18AF22299D426D006EEE84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FE18AF29299D426D006EEE84 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FE18AF39299D426E006EEE84 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FE18AF29299D426D006EEE84;
+					};
+					FE18AF43299D426E006EEE84 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FE18AF29299D426D006EEE84;
+					};
+				};
+			};
+			buildConfigurationList = FE18AF25299D426D006EEE84 /* Build configuration list for PBXProject "PokerCard-TCA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE18AF21299D426D006EEE84;
+			productRefGroup = FE18AF2B299D426D006EEE84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE18AF29299D426D006EEE84 /* PokerCard-TCA */,
+				FE18AF39299D426E006EEE84 /* PokerCard-TCATests */,
+				FE18AF43299D426E006EEE84 /* PokerCard-TCAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE18AF28299D426D006EEE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE18AF35299D426D006EEE84 /* Preview Assets.xcassets in Resources */,
+				FE18AF32299D426D006EEE84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE18AF38299D426E006EEE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE18AF42299D426E006EEE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE18AF26299D426D006EEE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE18AF30299D426D006EEE84 /* ContentView.swift in Sources */,
+				FE18AF2E299D426D006EEE84 /* PokerCard_TCAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE18AF36299D426E006EEE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE18AF3F299D426E006EEE84 /* PokerCard_TCATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE18AF40299D426E006EEE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE18AF49299D426E006EEE84 /* PokerCard_TCAUITests.swift in Sources */,
+				FE18AF4B299D426E006EEE84 /* PokerCard_TCAUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE18AF3C299D426E006EEE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE18AF29299D426D006EEE84 /* PokerCard-TCA */;
+			targetProxy = FE18AF3B299D426E006EEE84 /* PBXContainerItemProxy */;
+		};
+		FE18AF46299D426E006EEE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE18AF29299D426D006EEE84 /* PokerCard-TCA */;
+			targetProxy = FE18AF45299D426E006EEE84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE18AF4C299D426E006EEE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE18AF4D299D426E006EEE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE18AF4F299D426E006EEE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokerCard-TCA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pauloroberto.PokerCard-TCA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE18AF50299D426E006EEE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokerCard-TCA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pauloroberto.PokerCard-TCA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE18AF52299D426E006EEE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pauloroberto.PokerCard-TCATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerCard-TCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokerCard-TCA";
+			};
+			name = Debug;
+		};
+		FE18AF53299D426E006EEE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pauloroberto.PokerCard-TCATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerCard-TCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokerCard-TCA";
+			};
+			name = Release;
+		};
+		FE18AF55299D426E006EEE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pauloroberto.PokerCard-TCAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PokerCard-TCA";
+			};
+			name = Debug;
+		};
+		FE18AF56299D426E006EEE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pauloroberto.PokerCard-TCAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PokerCard-TCA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE18AF25299D426D006EEE84 /* Build configuration list for PBXProject "PokerCard-TCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE18AF4C299D426E006EEE84 /* Debug */,
+				FE18AF4D299D426E006EEE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE18AF4E299D426E006EEE84 /* Build configuration list for PBXNativeTarget "PokerCard-TCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE18AF4F299D426E006EEE84 /* Debug */,
+				FE18AF50299D426E006EEE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE18AF51299D426E006EEE84 /* Build configuration list for PBXNativeTarget "PokerCard-TCATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE18AF52299D426E006EEE84 /* Debug */,
+				FE18AF53299D426E006EEE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE18AF54299D426E006EEE84 /* Build configuration list for PBXNativeTarget "PokerCard-TCAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE18AF55299D426E006EEE84 /* Debug */,
+				FE18AF56299D426E006EEE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE18AF22299D426D006EEE84 /* Project object */;
+}
