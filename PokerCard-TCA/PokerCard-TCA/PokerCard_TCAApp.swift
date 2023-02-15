@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct PokerCard_TCAApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+    WindowGroup<LoginView> {
+            LoginView(store: Store(initialState: LoginDomain.State(),
+                                   reducer: LoginDomain.reducer,
+                                   environment: LoginDomain.Enviroment()
+                                  )
+            )
         }
     }
 }
